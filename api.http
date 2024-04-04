@@ -6,3 +6,13 @@ Content-Type: application/json
     "details": "Um evento para quem é apaixonado por programação",
     "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/96fed3e7-1098-474a-97f7-e9c7ef9f0b5b/attendees
+Content-Type: application/json
+
+{
+    "name": "Clelton José Mielke",
+    "email": "cleltonjm_95@otmail.com"
+}
