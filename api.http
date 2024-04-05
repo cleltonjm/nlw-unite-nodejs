@@ -2,17 +2,25 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Unite Summit",
-    "details": "Um evento para quem é apaixonado por programação",
-    "maximumAttendees": 100
+    "title": "Novo evento 2",
+    "details": null,
+    "maximumAttendees": 1
 }
 
 ###
 
-POST http://localhost:3333/events/96fed3e7-1098-474a-97f7-e9c7ef9f0b5b/attendees
+POST http://localhost:3333/events/025a6c49-e137-416c-b9df-7e3a29a1a7db/attendees
 Content-Type: application/json
 
 {
     "name": "Clelton José Mielke",
     "email": "cleltonjm_95@otmail.com"
 }
+
+###
+
+GET http://localhost:3333/events/025a6c49-e137-416c-b9df-7e3a29a1a7db
+
+###
+
+GET http://localhost:3333/attendees/3/badge
