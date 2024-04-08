@@ -24,3 +24,11 @@ GET http://localhost:3333/events/025a6c49-e137-416c-b9df-7e3a29a1a7db
 ###
 
 GET http://localhost:3333/attendees/3/badge
+
+###
+
+GET http://localhost:3333/attendees/3/check-in
+
+###
+
+GET http://localhost:3333/events/025a6c49-e137-416c-b9df-7e3a29a1a7db/attendees?query=clelton
